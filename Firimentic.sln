@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firimentic", "Firimentic\Firimentic.csproj", "{C7F44AD1-DB38-4C3B-9C94-87A58A9B31D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firimentic.Droid", "Firimentic.Droid\Firimentic.Droid.csproj", "{63FFBA2C-0BCC-437D-B866-793C5425C50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirimenticEngine", "FirimenticEngine\FirimenticEngine.csproj", "{0C20675C-CE02-473D-9210-7BBB5AD26BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirimenticEngine.CustomComponents", "FirimenticEngine.CustomComponents\FirimenticEngine.CustomComponents.csproj", "{DABBC178-F28C-418E-B5EE-65EF7FFC1ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodTKHelper", "GoodTKHelper\GoodTKHelper.csproj", "{70AB676C-1081-4D66-972A-92B73436DA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirimenticEngine.Droid", "FirimenticEngine.Droid\FirimenticEngine.Droid.csproj", "{C37950F0-1300-4EFE-A0EC-D2A346A08525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirimenticEngine.Code", "FirimenticEngine.Code", "{E107DE92-9066-4CCA-B877-EA5D6E18B43F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{A44735B5-E069-4298-9B51-414147362A79}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.Code\Graphics\Axii.cs = FirimenticEngine.Code\Graphics\Axii.cs
+		FirimenticEngine.Code\Graphics\Extensions.cs = FirimenticEngine.Code\Graphics\Extensions.cs
+		FirimenticEngine.Code\Graphics\IndexBuffer.cs = FirimenticEngine.Code\Graphics\IndexBuffer.cs
+		FirimenticEngine.Code\Graphics\ItemDisposalLevel.cs = FirimenticEngine.Code\Graphics\ItemDisposalLevel.cs
+		FirimenticEngine.Code\Graphics\Model.cs = FirimenticEngine.Code\Graphics\Model.cs
+		FirimenticEngine.Code\Graphics\ModelMesh.cs = FirimenticEngine.Code\Graphics\ModelMesh.cs
+		FirimenticEngine.Code\Graphics\ModelMeshPart.cs = FirimenticEngine.Code\Graphics\ModelMeshPart.cs
+		FirimenticEngine.Code\Graphics\ModelMeshPartPrimCall.cs = FirimenticEngine.Code\Graphics\ModelMeshPartPrimCall.cs
+		FirimenticEngine.Code\Graphics\VertexBuffer.cs = FirimenticEngine.Code\Graphics\VertexBuffer.cs
+		FirimenticEngine.Code\Graphics\VertexFormat.cs = FirimenticEngine.Code\Graphics\VertexFormat.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{4DC9AE64-A0AE-49BB-A7CC-B8E06A3E926D}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.Code\Graphics\Shaders\ShaderMaterial.cs = FirimenticEngine.Code\Graphics\Shaders\ShaderMaterial.cs
+		FirimenticEngine.Code\Graphics\Shaders\ShaderProgram.cs = FirimenticEngine.Code\Graphics\Shaders\ShaderProgram.cs
+		FirimenticEngine.Code\Graphics\Shaders\ShaderTransform.cs = FirimenticEngine.Code\Graphics\Shaders\ShaderTransform.cs
+		FirimenticEngine.Code\Graphics\Shaders\UniformPart.cs = FirimenticEngine.Code\Graphics\Shaders\UniformPart.cs
+		FirimenticEngine.Code\Graphics\Shaders\WVP2DShaderTransform.cs = FirimenticEngine.Code\Graphics\Shaders\WVP2DShaderTransform.cs
+		FirimenticEngine.Code\Graphics\Shaders\WVP3DShaderTransform.cs = FirimenticEngine.Code\Graphics\Shaders\WVP3DShaderTransform.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{1074E84B-0561-49B5-B3A4-A2AEC99DD923}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.Code\Math\Matrix1x4.cs = FirimenticEngine.Code\Math\Matrix1x4.cs
+		FirimenticEngine.Code\Math\Matrix3.cs = FirimenticEngine.Code\Math\Matrix3.cs
+		FirimenticEngine.Code\Math\Matrix4x1.cs = FirimenticEngine.Code\Math\Matrix4x1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DDB38005-BCE8-4105-87E5-7859A38F9AFC}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.Code\Services\IResourceService.cs = FirimenticEngine.Code\Services\IResourceService.cs
+		FirimenticEngine.Code\Services\IService.cs = FirimenticEngine.Code\Services\IService.cs
+		FirimenticEngine.Code\Services\ServiceManager.cs = FirimenticEngine.Code\Services\ServiceManager.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirimenticEngine.CustomComponents.Droid", "FirimenticEngine.CustomComponents.Droid\FirimenticEngine.CustomComponents.Droid.csproj", "{E783D9CE-9C86-451D-8F80-B9168872F90A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirimenticEngine.CustomComponents.Code", "FirimenticEngine.CustomComponents.Code", "{CBE299A3-2084-4078-86DE-FB063D7263EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{0D265F93-B45B-4D9B-AA0E-D20487BABF11}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.CustomComponents.Code\Graphics\ShapeGenerator.cs = FirimenticEngine.CustomComponents.Code\Graphics\ShapeGenerator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{1F7E6887-AAE4-47A2-8C5D-4A145DD391B6}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.CustomComponents.Code\Graphics\Shaders\SolidColorMeshShader.cs = FirimenticEngine.CustomComponents.Code\Graphics\Shaders\SolidColorMeshShader.cs
+		FirimenticEngine.CustomComponents.Code\Graphics\Shaders\SolidColorShaderMaterial.cs = FirimenticEngine.CustomComponents.Code\Graphics\Shaders\SolidColorShaderMaterial.cs
+		FirimenticEngine.CustomComponents.Code\Graphics\Shaders\VP3DShaderTransform.cs = FirimenticEngine.CustomComponents.Code\Graphics\Shaders\VP3DShaderTransform.cs
+		FirimenticEngine.CustomComponents.Code\Graphics\Shaders\World3DShaderTransform.cs = FirimenticEngine.CustomComponents.Code\Graphics\Shaders\World3DShaderTransform.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vertices", "Vertices", "{62BE45B7-3809-43DB-81F6-B62243AAFC9A}"
+	ProjectSection(SolutionItems) = preProject
+		FirimenticEngine.CustomComponents.Code\Graphics\Vertices\VertexPositionColored.cs = FirimenticEngine.CustomComponents.Code\Graphics\Vertices\VertexPositionColored.cs
+		FirimenticEngine.CustomComponents.Code\Graphics\Vertices\VertexPositioned.cs = FirimenticEngine.CustomComponents.Code\Graphics\Vertices\VertexPositioned.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F44AD1-DB38-4C3B-9C94-87A58A9B31D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F44AD1-DB38-4C3B-9C94-87A58A9B31D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F44AD1-DB38-4C3B-9C94-87A58A9B31D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F44AD1-DB38-4C3B-9C94-87A58A9B31D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FFBA2C-0BCC-437D-B866-793C5425C50D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0C20675C-CE02-473D-9210-7BBB5AD26BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C20675C-CE02-473D-9210-7BBB5AD26BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C20675C-CE02-473D-9210-7BBB5AD26BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C20675C-CE02-473D-9210-7BBB5AD26BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABBC178-F28C-418E-B5EE-65EF7FFC1ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABBC178-F28C-418E-B5EE-65EF7FFC1ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABBC178-F28C-418E-B5EE-65EF7FFC1ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABBC178-F28C-418E-B5EE-65EF7FFC1ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AB676C-1081-4D66-972A-92B73436DA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AB676C-1081-4D66-972A-92B73436DA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AB676C-1081-4D66-972A-92B73436DA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AB676C-1081-4D66-972A-92B73436DA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37950F0-1300-4EFE-A0EC-D2A346A08525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37950F0-1300-4EFE-A0EC-D2A346A08525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37950F0-1300-4EFE-A0EC-D2A346A08525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37950F0-1300-4EFE-A0EC-D2A346A08525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783D9CE-9C86-451D-8F80-B9168872F90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E783D9CE-9C86-451D-8F80-B9168872F90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E783D9CE-9C86-451D-8F80-B9168872F90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E783D9CE-9C86-451D-8F80-B9168872F90A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A44735B5-E069-4298-9B51-414147362A79} = {E107DE92-9066-4CCA-B877-EA5D6E18B43F}
+		{4DC9AE64-A0AE-49BB-A7CC-B8E06A3E926D} = {A44735B5-E069-4298-9B51-414147362A79}
+		{1074E84B-0561-49B5-B3A4-A2AEC99DD923} = {E107DE92-9066-4CCA-B877-EA5D6E18B43F}
+		{DDB38005-BCE8-4105-87E5-7859A38F9AFC} = {E107DE92-9066-4CCA-B877-EA5D6E18B43F}
+		{0D265F93-B45B-4D9B-AA0E-D20487BABF11} = {CBE299A3-2084-4078-86DE-FB063D7263EA}
+		{1F7E6887-AAE4-47A2-8C5D-4A145DD391B6} = {0D265F93-B45B-4D9B-AA0E-D20487BABF11}
+		{62BE45B7-3809-43DB-81F6-B62243AAFC9A} = {0D265F93-B45B-4D9B-AA0E-D20487BABF11}
+	EndGlobalSection
+EndGlobal

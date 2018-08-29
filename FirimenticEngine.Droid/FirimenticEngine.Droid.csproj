@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C37950F0-1300-4EFE-A0EC-D2A346A08525}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FirimenticEngine.Droid</RootNamespace>
+    <AssemblyName>FirimenticEngine.Droid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="OpenTK-1.0" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\FirimenticEngine.Code\Constants.cs">
+      <Link>Constants.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Axii.cs">
+      <Link>Graphics\Axii.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Extensions.cs">
+      <Link>Graphics\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\IndexBuffer.cs">
+      <Link>Graphics\IndexBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\ItemDisposalLevel.cs">
+      <Link>Graphics\ItemDisposalLevel.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Model.cs">
+      <Link>Graphics\Model.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\ModelMesh.cs">
+      <Link>Graphics\ModelMesh.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\ModelMeshPart.cs">
+      <Link>Graphics\ModelMeshPart.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\ModelMeshPartPrimCall.cs">
+      <Link>Graphics\ModelMeshPartPrimCall.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\ShaderMaterial.cs">
+      <Link>Graphics\Shaders\ShaderMaterial.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\ShaderProgram.cs">
+      <Link>Graphics\Shaders\ShaderProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\ShaderTransform.cs">
+      <Link>Graphics\Shaders\ShaderTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\UniformPart.cs">
+      <Link>Graphics\Shaders\UniformPart.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\WVP2DShaderTransform.cs">
+      <Link>Graphics\Shaders\WVP2DShaderTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\Shaders\WVP3DShaderTransform.cs">
+      <Link>Graphics\Shaders\WVP3DShaderTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\VertexBuffer.cs">
+      <Link>Graphics\VertexBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Graphics\VertexFormat.cs">
+      <Link>Graphics\VertexFormat.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Math\Matrix1x4.cs">
+      <Link>Math\Matrix1x4.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Math\Matrix3.cs">
+      <Link>Math\Matrix3.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Math\Matrix4x1.cs">
+      <Link>Math\Matrix4x1.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Services\IResourceService.cs">
+      <Link>Services\IResourceService.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Services\IService.cs">
+      <Link>Services\IService.cs</Link>
+    </Compile>
+    <Compile Include="..\FirimenticEngine.Code\Services\ServiceManager.cs">
+      <Link>Services\ServiceManager.cs</Link>
+    </Compile>
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
